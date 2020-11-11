@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com"/>
+
+  <remote  name="private"
+           fetch="ssh://git@github.com"
+           revision="master" />
+
+  <remote  name="gnu"
+           fetch="https://git.savannah.gnu.org"
+           revision="master" />
+
+  <remote  name="sourceware"
+           fetch="https://sourceware.org"
+           revision="master" />
+  
+  <remote  name="gitlab"
+           fetch="https://gitlab.com"
+           revision="master" />
+
+  <default revision="master"
+           remote="github"
+           sync-c="true"
+           sync-j="80" />
+
+  <!-- GNU Projects -->
+  <project name="git/binutils-gdb.git" path="gnu/binutils" remote="sourceware" revision="master" />
+  <project name="git/bash.git" path="gnu/bash" remote="sourceware" revision="master" />
+
+  
+  <!-- GNOME Projects -->
+  
+  <!-- Extra Projects -->
+  <project name="federicomenaquintero/bzip2.git" path="extras/bzip2" remote="gitlab" revision="master" />
+
+</manifest>
