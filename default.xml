@@ -19,6 +19,10 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com"
            revision="master" />
+  
+  <remote  name="gnome"
+           fetch="https://gitlab.gnome.org"
+           revision="master" />
 
   <default revision="master"
            remote="github"
@@ -27,10 +31,26 @@
 
   <!-- GNU Projects -->
   <project name="git/binutils-gdb.git" path="gnu/binutils" remote="sourceware" revision="master" />
-  <project name="git/bash.git" path="gnu/bash" remote="sourceware" revision="master" />
+  <project name="git/glibc.git" path="gnu/glibc" remote="sourceware" revision="master" />
+  <project name="git/bash.git" path="gnu/bash" remote="gnu" revision="master" />
+  <project name="git/diffutils.git" path="gnu/diffutils" remote="gnu" revision="master" />
+  <project name="git/coreutils.git" path="gnu/coreutils" remote="gnu" revision="master" />
+  <project name="git/grep.git" path="gnu/grep" remote="gnu" revision="master" />
+  <project name="git/sed.git" path="gnu/sed" remote="gnu" revision="master" />
+  <project name="git/make.git" path="gnu/make" remote="gnu" revision="master" />
+  <project name="git/gzip.git" path="gnu/gzip" remote="gnu" revision="master" />
+  <project name="git/tar.git" path="gnu/tar" remote="gnu" revision="master" />
+  <project name="git/bison.git" path="gnu/bison" remote="gnu" revision="master" />
+  <project name="git/texinfo.git" path="gnu/texinfo" remote="gnu" revision="master" />
+  <project name="git/man.git" path="gnu/man" remote="gnu" revision="master" />
+  <project name="git/libtool.git" path="gnu/libtool" remote="gnu" revision="master" />
+  <project name="git/ncurses-snapshots.git" path="gnu/ncurses" remote="github" revision="master" />
+  
+  
 
   
   <!-- GNOME Projects -->
+  <project name="GNOME/gtk.git" path="gnome/gtk" remote="gnome" revision="master" />
   
   <!-- Extra Projects -->
   <project name="federicomenaquintero/bzip2.git" path="extras/bzip2" remote="gitlab" revision="master" />
