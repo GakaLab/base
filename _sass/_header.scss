@@ -2,30 +2,22 @@
 
 #navbar {
   overflow: hidden;
-  background-color: var(--charcoal);
+  background-color: teal;
   font-family: Copperplate, Papyrus, Fantasy;
 }
 
-.site-search {
+#siteSearch { 
   float: right;
-  margin-top: 8px;
-  border: 2px solid white;
-  border-radius: 5px;
-  background-color: white;
+  display: flex;
+  margin-top: 10px;
+  border-radius: 50px;
 }
 
-.search-box {
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 4px;
-  font-size: 14px;
+input:focus {
+  border: 2px solid teal;
 }
 
-.search-box:focus {
-  border: 2px solid var(--charcoal);
-}
-
-.search-button {
+#searchButton {
   margin-top: 0px;
   height: 27px;
   padding-bottom: 2px;  

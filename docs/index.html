@@ -9,35 +9,66 @@
   <title>Store - Tech Shop</title>
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7335189085295095"
      crossorigin="anonymous"></script>
 </head>
 
-  <body><ul id="navbar">
+  <body id="siteHome">
+    <section id="siteHeader"><ul id="navbar">
   <li style="float:left"><a class="active" href="/">Home</a></li>
   <li style="float:right"><a class="active" href="contact.asp">Contact</a></li>
   <li style="float:right"><a class="active" href="#about">About</a></li>
-  <form class="site-search" action="/action_page.php">
-    <input type="text" placeholder="Search.." class="search-box" name="search">
-    <button type="submit" style="font-size: 16px" class="search-button">&#128269</button>
+  <form id="siteSearch" action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit" style="font-size: 16px" id="searchButton"><i class="material-icons" style="color: teal">search</i></button>
   </form></ul>
-<section id="home">
-    <div id="homeNavigation"><section style="background-color: black">ddd</section>
+</section>
+    <section id="siteContent"><div id="homeNavigation"><section style="background-color: black">ddd</section>
 </div>
-    <div id="homContent"><div style="margin-left: 8px"><h1>Featured this Week</h></div>
-<section style="border: 1px solid var(--charcoal)">
+<div id="homeContent"><h1 style="color: var(--charcoal)">Featured this Week</h1>
+<section style="border: 1px solid teal">
+  <table>
+    <tr>
+  <th>Lenovo X1 YOGA</th>
+  <th>Tecno Spark 8p</th>
+</tr>
+<tr>
+  <td><figure>
+    <img class="featured-image" src="/img/featured/1.png"/>
+      <figcaption class="featured-caption">Price: P14,934</figcaption>
+  </figure></td>
+  <td><figure>
+    <img class="featured-image" src="/img/featured/2.png"/>
+      <figcaption class="featured-caption">Price: P1303</figcaption>
+  </figure></td>
+</tr>
 
-  <figure>
-    <img id="featuredImage" src="/img/featured/1.png"/>
-    <figcaption class="featured-caption">Lenovo X1 YOGA, P14,934</figcaption>
-  </figure>
+      
+    <tr>
+  <th>Lenovo X1 YOGA</th>
+  <th>Tecno Spark 8p</th>
+</tr>
+<tr>
+  <td><figure>
+    <img class="featured-image" src="/img/featured/1.png"/>
+      <figcaption class="featured-caption">Price: P14,934</figcaption>
+  </figure></td>
+  <td><figure>
+    <img class="featured-image" src="/img/featured/2.png"/>
+      <figcaption class="featured-caption">Price: P1303</figcaption>
+  </figure></td>
+</tr>
+
+  </table>
+
 </section>
 </div>
-    <div id="homeAdverts"><section style="background-color: silver">ddd</section>
+<div id="homeAdverts"><section style="background-color: silver">ddd</section>
 </div>
 </section>
-<div id="footer">
-  <hr color="grey" size="1" width="100%" style="grid-column: 1 / span 3">
+    <section id="siteFooter"><div id="footer">
+  <hr color="teal" size="1" width="100%" style="grid-column: 1 / span 3"></hr>
   <div>The Online Catalogue</div>
     <ul id="sitelinks">
     <li><a href="https://www.facebook.com/bretantonio" id="fb-button" class="dev-link">
@@ -61,5 +92,6 @@
     </a></li>
   </ul>
 </div>
-</body>
+</section>
+  </body>
 </html>

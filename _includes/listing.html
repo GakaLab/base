@@ -1,0 +1,14 @@
+<tr>
+  <th>{{ include.product1 }}</th>
+  <th>{{ include.product2 }}</th>
+</tr>
+<tr>
+  <td><figure>
+    <img class="featured-image" src="{{ "/img/featured/1.png" | relative_url }}"/>
+      <figcaption class="featured-caption">Price: {{ include.price1 }}</figcaption>
+  </figure></td>
+  <td><figure>
+    <img class="featured-image" src="{{ "/img/featured/2.png" | relative_url }}"/>
+      <figcaption class="featured-caption">Price: {{ include.price2 }}</figcaption>
+  </figure></td>
+</tr>

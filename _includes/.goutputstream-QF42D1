@@ -4,7 +4,7 @@
   <li style="float:right"><a class="active" href="#about">About</a></li>
   <form id="siteSearch" action="/action_page.php">
     <input type="text" placeholder="Search.." name="search">
-    <button type="submit" style="font-size: 16px" id="searchButton"><i class="material-icons" style="color: teal">search</i></button>
+    <button type="submit" style="font-size: 16px" it="searchButton"><i class="material-icons">search</i></button>
   </form>
   {%- if page_paths -%}
   <label for="nav-trigger">

@@ -1,12 +1,31 @@
 /* Home */
 
-#home {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: stretch;
+#siteHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#featuredImage {
+#siteContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  min-height: 80vh;
+}
+
+/*#home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}*/
+/*
+#siteFooter {
+    align-self: flex-end;
+}*/
+
+.featured-image {
     width: 20%;
 }

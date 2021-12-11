@@ -6,30 +6,32 @@ ul { list-style-type: none; margin: 0; padding: 0; }
 
 li a { display: block; color: white; padding: 14px 16px; text-decoration: none; }
 
-li a:hover { background-color: teal; }
+li a:hover { background-color: var(--charcoal); }
 
 .svg-icon { width: 16px; height: 16px; display: inline-block; }
 
 /***		Header		***/
-#navbar { overflow: hidden; background-color: var(--charcoal); font-family: Copperplate, Papyrus, Fantasy; }
+#navbar { overflow: hidden; background-color: teal; font-family: Copperplate, Papyrus, Fantasy; }
 
-.site-search { float: right; margin-top: 8px; border: 2px solid white; border-radius: 5px; background-color: white; }
+#siteSearch { float: right; display: flex; margin-top: 10px; border-radius: 50px; }
 
-.search-box { border: 2px solid white; border-radius: 5px; padding: 4px; font-size: 14px; }
+input:focus { border: 2px solid teal; }
 
-.search-box:focus { border: 2px solid var(--charcoal); }
-
-.search-button { margin-top: 0px; height: 27px; padding-bottom: 2px; }
+#searchButton { margin-top: 0px; height: 27px; padding-bottom: 2px; }
 
 /* Home */
-#home { display: flex; flex-wrap: nowrap; justify-content: space-around; align-items: stretch; }
+#siteHome { display: flex; flex-direction: column; justify-content: space-between; }
 
-#featuredImage { width: 20%; }
+#siteContent { display: flex; flex-direction: row; justify-content: space-between; flex-wrap: nowrap; min-height: 80vh; }
+
+/*#home { display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-around; align-items: flex-end; }*/
+/* #siteFooter { align-self: flex-end; }*/
+.featured-image { width: 20%; }
 
 /* Footer */
 .dev-link { display: inline; border-radius: 32px; transition: all 1s; }
 
-#footer { display: grid; grid-template-columns: auto auto auto; grid-gap: 4px; justify-content: space-between; position: absolute; left: 10px; right: 10px; bottom: 10px; margin: 4px; font-size: 16px; text-align: center; }
+#footer { display: grid; grid-gap: 4px; justify-content: space-between; font-size: 16px; text-align: center; }
 
 #sitelinks { display: flex; grid-row: 2 / span 2; grid-column: 2 / span 1; align-items: center; }
 
