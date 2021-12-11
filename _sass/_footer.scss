@@ -6,6 +6,15 @@
   transition: all 1s;
 }
 
+
+.fb-button:hover {
+  background-color: #3B5998;
+}
+
+.git-button:hover {
+  background-color: #666666;
+}
+
 #footer {
   display: grid;
   grid-gap: 4px;
@@ -23,12 +32,4 @@
 
 #devlinks {
   display: flex;
-}
-
-#fb-button:hover {
-  background-color: #3B5998;
-}
-
-#git-button:hover {
-  background-color: #666666;
 }
