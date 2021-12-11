@@ -16,6 +16,7 @@ livereload: true
 exclude:
   - Makefile
   - Gemfile.lock
+  - README.md
 plugins:
   - jekyll-feed
   - jekyll-admin

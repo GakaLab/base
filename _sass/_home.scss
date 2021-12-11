@@ -1,0 +1,12 @@
+/* Home */
+
+#home {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#featuredImage {
+    width: 20%;
+}

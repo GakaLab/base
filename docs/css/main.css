@@ -21,6 +21,11 @@ li a:hover { background-color: teal; }
 
 .search-button { margin-top: 0px; height: 27px; padding-bottom: 2px; }
 
+/* Home */
+#home { display: flex; flex-wrap: nowrap; justify-content: space-around; align-items: stretch; }
+
+#featuredImage { width: 20%; }
+
 /* Footer */
 .dev-link { display: inline; border-radius: 32px; transition: all 1s; }
 
