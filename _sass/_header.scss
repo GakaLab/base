@@ -1,0 +1,32 @@
+/***		Header		***/
+
+#navbar {
+  overflow: hidden;
+  background-color: var(--charcoal);
+  font-family: Copperplate, Papyrus, Fantasy;
+}
+
+.site-search {
+  float: right;
+  margin-top: 8px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.search-box {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 14px;
+}
+
+.search-box:focus {
+  border: 2px solid var(--charcoal);
+}
+
+.search-button {
+  margin-top: 0px;
+  height: 27px;
+  padding-bottom: 2px;  
+}

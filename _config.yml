@@ -1,0 +1,21 @@
+author: "Bret Joseph"
+title: "Tech Shop"
+email: "techshop@gmail.com"
+description: "The Online Catalogue"
+baseurl: ""
+url: "https://tech.shop.bw"
+twitter_username: techshop
+github_username:  bretantonio
+facebook_username: bretantonio
+instagram_username: bretantonio
+timezone: "Africa/Gaborone"
+# Build settings
+markdown: kramdown
+destination: docs
+livereload: true
+exclude:
+  - Makefile
+  - Gemfile.lock
+plugins:
+  - jekyll-feed
+  - jekyll-admin
