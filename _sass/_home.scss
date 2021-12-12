@@ -3,29 +3,23 @@
 #siteHome {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
 #siteContent {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: nowrap;
+  justify-content: space-between;
   min-height: 80vh;
 }
 
-/*#home {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: flex-end;
-}*/
 /*
 #siteFooter {
     align-self: flex-end;
 }*/
 
 .featured-image {
-    width: 20%;
+    width: 128px;
 }
