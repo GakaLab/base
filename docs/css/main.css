@@ -8,6 +8,10 @@ li a { display: block; color: white; padding: 14px 16px; text-decoration: none; 
 
 li a:hover { background-color: var(--charcoal); }
 
+th { text-align: center; }
+
+td { text-align: center; }
+
 .svg-icon { width: 16px; height: 16px; display: inline-block; }
 
 /***		Header		***/
@@ -25,7 +29,7 @@ input:focus { border: 2px solid teal; }
 #siteContent { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; min-height: 80vh; }
 
 /* #siteFooter { align-self: flex-end; }*/
-.featured-image { width: 128px; }
+.featured-image { margin: 8px; width: 128px; }
 
 /* Footer */
 .dev-link { display: inline; border-radius: 32px; transition: all 1s; }
