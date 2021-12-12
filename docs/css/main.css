@@ -17,7 +17,7 @@ td { text-align: center; }
 /***		Header		***/
 #navBar { overflow: hidden; background-color: teal; font-family: Copperplate, Papyrus, Fantasy; }
 
-#siteSearch { display: flex; background-color: white; margin-top: 10px; border-radius: 50px; }
+#siteSearch { display: flex; background-color: white; margin-top: 10px; }
 
 input:focus { border: 2px solid teal; }
 
